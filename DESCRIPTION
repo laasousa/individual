@@ -25,9 +25,12 @@ Collate:
   'updates.R'
   'simulation.R'
 Imports:
-  R6
+  R6,
+  Rcpp
 Suggests:
   testthat (>= 2.1.0),
   roxygen2,
   mockery
 RoxygenNote: 7.0.2
+LinkingTo: 
+  Rcpp
