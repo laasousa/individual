@@ -5,3 +5,7 @@ individual.Rcheck
 individual_*.tar.gz
 .Rd2pdf*
 man
+.cproject
+.project
+.settings
+*.o
