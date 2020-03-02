@@ -24,7 +24,6 @@ Collate:
   'frame.R'
   'updates.R'
   'simulation.R'
-  'RcppExports.R'
   'individual-package.R'
 Imports:
   R6,
@@ -36,3 +35,4 @@ Suggests:
 RoxygenNote: 7.0.2
 LinkingTo:
   Rcpp
+RcppModules: individual_cpp
