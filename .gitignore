@@ -10,3 +10,4 @@ man
 .settings
 *.o
 *.so
+/Debug/

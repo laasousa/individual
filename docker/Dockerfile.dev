@@ -10,7 +10,8 @@ RUN apt-get update && apt-get -y install \
   libssl-dev \
   libxml2-dev \
   libgit2-dev \
-  time
+  time \
+  gdb
 
 RUN R -e "install.packages(c('devtools', 'roxygen2', 'testthat'))"
 
