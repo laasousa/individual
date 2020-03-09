@@ -1,3 +1,5 @@
 ^LICENSE\.md$
 .travis.yml
 docker
+^.*\.Rproj$
+^\.Rproj\.user$
